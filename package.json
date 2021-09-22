@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "api": "elm-graphql https://elm-graphql.herokuapp.com/api --base StarWars"
+    "api": "elm-graphql https://elm-graphql.herokuapp.com/api --base StarWars",
+    "build": "elm make src/Main.elm"
   },
   "keywords": [],
   "author": "",
