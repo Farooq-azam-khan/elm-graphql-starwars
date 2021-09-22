@@ -1,0 +1,15 @@
+{
+  "name": "elm-graphql-start-wars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "elm-graphql https://elm-graphql.herokuapp.com/api --base StarWars"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dillonkearns/elm-graphql": "^4.2.2"
+  }
+}
